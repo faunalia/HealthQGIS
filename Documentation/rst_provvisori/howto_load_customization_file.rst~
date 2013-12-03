@@ -1,0 +1,21 @@
+.. |qg| image:: img/logo.png
+	:scale: 60%
+
+.. |ita| image:: img/who_logo.jpeg
+
+INSTALL QGIS AND CUSTOMIZE THE TOOLBAR
+==========================================
+
+In order to use QGIS you should first go on the `QGIS website <http://www.qgis.org/en/site/forusers/download.html#windows>`_ and download the **QGIS Standalone version**.
+Be careful to choose the right version for you computer (32 or 64 bit).
+
+Once the download is finished, just double click on the file and follow the instruction of the wizard.
+
+.. inserire le immagini del wizard per windows
+
+At the end of the installation there are two new program available on your computer, QGIS Desktop and QGIS Browser.
+
+
+RUN QGIS DESKTOP
+-------------------------------------
+To run QGIS Desktop just double click on the icon |qg|. You should see something like:
