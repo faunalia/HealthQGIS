@@ -1,4 +1,4 @@
-QGIS HEALTH MAPPING TOOL
+QGIS Health Mapping Tool
 =============================
 
 .. image:: img/who_logo.jpeg

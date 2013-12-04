@@ -2,7 +2,7 @@
 	:scale: 60%
 
 
-INSTALL QGIS AND CUSTOMIZE THE TOOLBAR
+Install QGIS and customize the toolbar
 ==========================================
 
 In order to use QGIS you should first go on the `QGIS website <http://www.qgis.org/en/site/forusers/download.html#windows>`_ and download the **QGIS Standalone version**.
