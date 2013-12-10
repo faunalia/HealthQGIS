@@ -1,0 +1,12 @@
+Health Mapping Tool
+=================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   introduction
+   howto_load_customization_file
+   first_steps
+
