@@ -11,8 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   introduction
-   howto_load_customization_file
+   software_specification
 
 Indices and tables
 ==================
