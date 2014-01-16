@@ -81,37 +81,36 @@ You must always click on the corresponding button and then you can perform the o
 In particular:
 
 .. figure:: img/mActionPan.png
-	:width: 1.5em
 
 	Pan the map
 
 .. figure:: img/mActionZoomIn.png
-	:width: 1.5em
+
 
 	Zoom in
 
 .. figure:: img/mActionZoomOut.png
-	:width: 1.5em
+
 
 	Zoom out
 
 .. figure:: img/mActionZoomLast.png
-	:width: 1.5em
+
 
 	Goes to the last zoom
 
 .. figure:: img/mActionZoomNext.png
-	:width: 1.5em
+
 
 	Goes to the next zoom
 
 .. figure:: img/mActionZoomToLayer.png
-	:width: 1.5em
+
 
 	Zooms to the layer you have selected
 
 .. figure:: img/mActionZoomToSelected.png
-	:width: 1.5em
+
 
 	Zooms to the selection
 
