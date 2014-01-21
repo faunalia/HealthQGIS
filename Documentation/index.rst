@@ -17,6 +17,7 @@ Contents:
    software_specification
    3_2_basic_around_map
    3_3_querying_the_map
+   3_4_buffer
    3_6_thematic_maps
 
 Indices and tables
