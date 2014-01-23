@@ -33,6 +33,8 @@ You should now see the buffer dialog window where you can perform your operation
 
 8. Once the process is finished, click on **Yes** to add the new buffer layer to the map canvas
 
+.. note:: buffers are layers, so you can perform all the operations like other layers (selection, query, filtering...)
+
 
 The following screenshots show the difference between *normal* and *dissolved* buffers:
 
