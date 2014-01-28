@@ -8,15 +8,6 @@ QGIS Health Mapping Tool
 	:scale: 130%
 	:align: right
 
-|
-|
-|
-|
-|
-|
-|
-|
-
 Description of the project
 -----------------------------------------
 

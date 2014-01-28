@@ -6,8 +6,6 @@
 Welcome to Health Mapping Tool documentation
 ==============================================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
