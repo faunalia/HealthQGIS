@@ -1,8 +1,8 @@
 .. |buffer| image:: img/buffer.png 
 
 
-3.4 Buffers
-===========
+Buffers [3.4]
+==============
 
 Performing buffers in QGIS is very simple and intuitive. To open the buffer dialog window click on the |buffer| icon **Vector -> Geoprocessing tolls -> Buffer(s)**:
 
