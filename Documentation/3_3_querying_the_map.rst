@@ -21,8 +21,8 @@
 .. |mActionMapTips| image:: img/mActionMapTips.png
 
 
-3.3 Querying the map 
-=====================
+Querying the map [3.3]
+========================
 
 Labeling 
 -------------
