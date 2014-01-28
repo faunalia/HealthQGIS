@@ -5,7 +5,7 @@ QGIS Health Mapping Tool
 	:align: left
 
 .. image:: img/logo.png
-	:scale: 130%
+	:scale: 100%
 	:align: right
 
 Description of the project
