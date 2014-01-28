@@ -12,23 +12,12 @@ You must always click on the corresponding button and then you can perform the o
 	:align: center
 	:scale: 70%
 
-**Here a complete list of the buttons and icons:**
+Here a complete list of the buttons and icons: Pan the map |pan|, Zoom in |zoomin|, Zoom out |zoomout|, 
 
 
-.. figure:: img/mActionPan.png
-
-   Pan the map
-
-
-.. figure:: img/mActionZoomIn.png
-
-   Zoom in
-
-
-.. figure:: img/mActionZoomOut.png
-
-   Zoom out
-
+.. |pan| image:: img/mActionPan.png
+.. |zoomin| image:: img/mActionZoomIn.png
+.. |zoomout| image:: img/mActionZoomOut.png
 
 .. figure:: img/mActionZoomLast.png
 
