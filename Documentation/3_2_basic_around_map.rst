@@ -12,31 +12,17 @@ You must always click on the corresponding button and then you can perform the o
 	:align: center
 	:scale: 70%
 
-Here a complete list of the buttons and icons: Pan the map |pan|, Zoom in |zoomin|, Zoom out |zoomout|, 
+Here a complete list of the buttons and icons: Pan the map |pan|, Zoom in |zoomin|, Zoom out |zoomout|, Last zoom |lastzoom|, Next Zoom |nextzoom|, Zoom to selected |zoomtoselected|, Zoom to selecion |zoomtoselection| 
 
 
 .. |pan| image:: img/mActionPan.png
 .. |zoomin| image:: img/mActionZoomIn.png
 .. |zoomout| image:: img/mActionZoomOut.png
+.. |lastzoom| image:: img/mActionZoomLast.png 
+.. |nextzoom| image:: img/mActionZoomNext.png
+.. |zoomtoselected| image:: img/mActionZoomToSelected.png
+.. |zoomtoselection| image:: img/mActionZoomToSelected.png
 
-.. figure:: img/mActionZoomLast.png
-
-   Goes to the last zoom
-
-
-.. figure:: img/mActionZoomNext.png
-
-   Goes to the next zoom
-
-
-.. figure:: img/mActionZoomToLayer.png
-
-   Zooms to the layer you have selected
-
-
-.. figure:: img/mActionZoomToSelected.png
-
-   Zooms to the selection
 
 You can also use the scroll wheel for much of the same commands.
 
