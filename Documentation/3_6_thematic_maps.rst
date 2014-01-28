@@ -1,4 +1,4 @@
-3.6 Thematic maps 
+Thematic maps [3.6]
 ======================
 
 Thematic maps production is a very with QGIS. Depending on the attribute table related to the layer you can easily create several map types. 
