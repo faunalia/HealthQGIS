@@ -12,7 +12,7 @@ You must always click on the corresponding button and then you can perform the o
 	:align: center
 	:scale: 70%
 
-Here a complete list of the buttons and icons: Pan the map |pan|, Zoom in |zoomin|, Zoom out |zoomout|, Last zoom |lastzoom|, Next Zoom |nextzoom|, Zoom to slayer |zoomtolayer|, Zoom to selecion |zoomtoselection| 
+Here a complete list of the buttons and icons: Pan the map |pan|, Zoom in |zoomin|, Zoom out |zoomout|, Last zoom |lastzoom|, Next Zoom |nextzoom|, Zoom to layer |zoomtolayer|, Zoom to selecion |zoomtoselection| 
 
 
 .. |pan| image:: img/mActionPan.png
