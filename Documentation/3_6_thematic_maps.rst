@@ -13,20 +13,20 @@ To create a graduated color map, open the **Properties** menu as described above
 
 .. figure:: img/graduated_1.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 Now you have to choose a numeric field from the attribute table in order to create classes and link them to a specific color. The drop down menu shown in the next figure shows all the available column of the attribute table. In the following example, the layer has an attribute that describes the area of each features in square degrees: 
 
 .. figure:: img/graduated_2.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 You can choose a color ramp (or create one) and you can also customize the classification deciding the number of classes and the mode of classification. 
 Once done click on **Classify**. 
 
 .. figure:: img/graduated_3.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 This is the result:
 
@@ -46,20 +46,20 @@ To make this classification, choose **Categorized** from the drop down menu and 
 
 .. figure:: img/categorized_1.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 |
 |
 
 .. figure:: img/categorized_2.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 Choose the color (many other customization are available) and click on **Classify**. Then close the windows clicking on **OK**.  
 
 .. figure:: img/categorized_3.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 The result is:
 
