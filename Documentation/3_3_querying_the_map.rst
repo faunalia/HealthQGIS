@@ -59,7 +59,8 @@ If you want to perform more fancy labels you have a lot of options in the label 
  
  .. figure:: img/querying_the_map_4.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
+
 
 Feature count 
 --------------------
@@ -83,14 +84,14 @@ In the pop-up window you can see each attribute of the clicked feature:
 
 .. figure:: img/querying_the_map_14.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 
 Working with the attribute table 
 .....................................................
 
 The attribute table displays features of a selected layer. Each row in the table represents one map feature and each column contains a particular piece of information about the feature. Features in the table can be searched, selected, moved or even edited. 
-Select the layer you want to see the attribute table and click on the |mActionOpenTable| icon. Alternatively you can rightclick on the layer and choose |mActionOpenTable|   from the dropdown menu: 
+Select the layer you want to see the attribute table and click on the |mActionOpenTable| icon. Alternatively you can rightclick on the layer and choose |mActionOpenTable| from the dropdown menu: 
 
  .. figure:: img/querying_the_map_6.png
 	:align: center
@@ -100,7 +101,7 @@ This will open a new window which displays the feature attributes of the layer.
 
  .. figure:: img/querying_the_map_7.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 Each **row** in the attribute table displays the attributes of the corresponding **feature** in the layer. If the set of features selected in the main window is changed, the selection is also updated in the attribute table. Likewise, if the set of rows selected in the attribute table is changed, the set of features selected in the main window will be updated. 
 
@@ -169,7 +170,7 @@ The dialog window of **Statist** is made up by 3 main parts:
 
  .. figure:: img/querying_the_map_13.png
 	:align: center
-	:scale: 70%
+	:scale: 80%
 
 
 In the first part, choose the layer from the dropdown menu **Input vector layer** you want to display the statistics of: the dropdown menu shows all the layer of the map canvas. 

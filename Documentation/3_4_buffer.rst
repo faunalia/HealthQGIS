@@ -8,13 +8,13 @@ Performing buffers in QGIS is very simple and intuitive. To open the buffer dial
 
 .. figure:: img/buffer_1.png 
 	:align: center
-	:scale: 70%
+	:scale: 80%
 
 You should now see the buffer dialog window where you can perform your operation:
 
 .. figure:: img/buffers.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 
 1. Select the layer from the drop down menu (all layer of your QGIS project are available)

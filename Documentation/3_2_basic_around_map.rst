@@ -36,6 +36,9 @@ QGIS is able to measure real distances between given points. Click on the |mActi
 
 .. figure:: img/map_tools_3.png
    :align: center
+   :scale: 70%
+
+|
 
 * **Areas**
 
@@ -43,6 +46,7 @@ Areas can also be measured by clicking the |mActionMeasureArea| button. In the m
 
 .. figure:: img/map_tools_4.png
    :align: center
+   :scale: 60%
 
 
 .. |mActionMeasure| image:: img/mActionMeasure.png
