@@ -38,7 +38,6 @@ QGIS is able to measure real distances between given points. Click on the |mActi
    :align: center
    :scale: 70%
 
-|
 
 * **Areas**
 
