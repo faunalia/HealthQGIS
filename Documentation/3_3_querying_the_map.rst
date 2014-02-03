@@ -1,24 +1,37 @@
 .. |mActionLabeling| image:: img/mActionLabeling.png 
 
 .. |mActionIdentify| image:: img/mActionIdentify.png 
-		:width: 1.5 em 
+	:width: 1.5 em 
 
-.. |mActionOpenTable| image:: img/mActionOpenTable.png 
+.. |mActionOpenTable| image:: img/mActionOpenTable.png
+	:width: 1.5 em  
 
 .. |mActionToggleEditing| image:: img/mActionToggleEditing.png
+	:width: 1.5 em 
 .. |mActionSaveEdits| image:: img/mActionSaveEdits.png
+	:width: 1.5 em 
 .. |mActionUnselectAttributes| image:: img/mActionUnselectAttributes.png
+	:width: 1.5 em 
 .. |mActionSelectedToTop| image:: img/mActionSelectedToTop.png
+	:width: 1.5 em 
 .. |mActionInvertSelection|  image:: img/mActionInvertSelection.png
+	:width: 1.5 em 
 .. |mActionCopySelected| image:: img/mActionCopySelected.png
+	:width: 1.5 em 
 .. |mActionZoomToSelected| image:: img/mActionZoomToSelected.png
-.. |PanToSelected| image:: img/PanToSelected.png 
+	:width: 1.5 em 
+.. |PanToSelected| image:: img/PanToSelected.png
+	:width: 1.5 em 
 .. |mActionDeleteSelected| image:: img/mActionDeleteSelected.png
+	:width: 1.5 em 
 .. |mActionNewAttribute| image:: img/mActionNewAttribute.png
+	:width: 1.5 em 
 .. |mActionDeleteAttribute| image:: img/mActionDeleteAttribute.png
+	:width: 1.5 em 
 .. |mActionCalculateField| image:: img/mActionCalculateField.png
-
+	:width: 1.5 em 
 .. |mActionMapTips| image:: img/mActionMapTips.png
+	:width: 1.5 em 
 
 
 Querying the map [3.3]
@@ -71,7 +84,7 @@ QGIS has an easy way to count the feature of the polygons. Just click with the r
 	:align: center
 	:scale: 70%
 
-Be aware that the feature count depends directly on the classification of the polygon! 
+.. warning:: feature count depends directly on the classification of the polygon! 
 
 Feature information 
 ----------------------------
@@ -91,7 +104,7 @@ Working with the attribute table
 .....................................................
 
 The attribute table displays features of a selected layer. Each row in the table represents one map feature and each column contains a particular piece of information about the feature. Features in the table can be searched, selected, moved or even edited. 
-Select the layer you want to see the attribute table and click on the |mActionOpenTable| icon. Alternatively you can rightclick on the layer and choose |mActionOpenTable| from the dropdown menu: 
+Select the layer you want to see the attribute table and click on the |mActionOpenTable| icon. Alternatively you can rightclick on the layer and choose |mActionOpenTable| :sup:`Open Attribute Table` from the dropdown menu: 
 
  .. figure:: img/querying_the_map_6.png
 	:align: center
@@ -117,13 +130,14 @@ Through the attribute table windows you can easily search and filter attributes 
 
  .. figure:: img/querying_the_map_8.png
 	:align: center
-	:scale: 70%
+	:scale: 75%
 
-The following image shows an example of *Western* filtering of the *ADM1_NAME* column. Be aware at the case sensitive checkbox in the bottom right corner (if activated the filtering is sensitive to upper or lower letters): 
+The following image shows an example of *Western* filtering of the *ADM1_NAME* column.
+Be aware at the case sensitive checkbox in the bottom right corner (if activated the filtering is sensitive to upper or lower letters): 
 
  .. figure:: img/querying_the_map_9.png
 	:align: center
-	:scale: 70%
+	:scale: 72%
 
 Finally, the toolbar of the attribute table dialog window has several buttons, here the list an the functionalities:
 
@@ -180,15 +194,15 @@ Once you have done click on **OK**.
 
 In the second part of the dialog windows you can see basic summary statistics of the chosen field, these include: 
 
-* Count: the features number of the layers 
+* Count: features number of the layers 
 * Unique values: how many unique values are present in the field 
-* Minimum value: the minimum value of the field  
-* Maximum value: the maximum value of the field 
-* Range: the range between the maximum and the minimum value  
+* Minimum value: minimum value of the field  
+* Maximum value: maximum value of the field 
+* Range: range between the maximum and the minimum value  
 * Sum: sum of all the values 
-* Mean value: the mean value   
-* Median value: the median value  
-* Standard deviation: the standard deviation  
+* Mean value: mean value   
+* Median value: median value  
+* Standard deviation: standard deviation  
 * Coefficient of Variation: a normalized measure of dispersion (defined as the ratio of the standard deviation to the mean) 
 
 

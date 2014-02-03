@@ -1,4 +1,5 @@
-.. |buffer| image:: img/buffer.png 
+.. |buffer| image:: img/buffer.png
+	:width: 1.5em
 
 
 Buffers [3.4]

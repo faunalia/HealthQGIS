@@ -6,7 +6,7 @@ Pan and zoom the map
 
 All the layer displayed in the map view can easily panned, zoomed in and out thanks to toolbar dedicated buttons.
 
-You must always click on the corresponding button and then you can perform the operation with the mouse.
+You must always click on the corresponding button and then you can perform the operation with the mouse (e.g. zoom in and zoom out)
 
 .. figure:: img/map_tools_2.png
 	:align: center
@@ -16,12 +16,25 @@ Here a complete list of the buttons and icons: Pan the map |pan|, Zoom in |zoomi
 
 
 .. |pan| image:: img/mActionPan.png
+		:width: 1.5em
+
 .. |zoomin| image:: img/mActionZoomIn.png
+		:width: 1.5em
+
 .. |zoomout| image:: img/mActionZoomOut.png
-.. |lastzoom| image:: img/mActionZoomLast.png 
+	:width: 1.5em
+
+.. |lastzoom| image:: img/mActionZoomLast.png
+	:width: 1.5em
+
 .. |nextzoom| image:: img/mActionZoomNext.png
+	:width: 1.5em
+
 .. |zoomtolayer| image:: img/mActionZoomToLayer.png
+	:width: 1.5em
+
 .. |zoomtoselection| image:: img/mActionZoomToSelected.png
+	:width: 1.5em
 
 
 You can also use the scroll wheel for much of the same commands.
@@ -38,6 +51,7 @@ QGIS is able to measure real distances between given points. Click on the |mActi
    :align: center
    :scale: 70%
 
+|
 
 * **Areas**
 

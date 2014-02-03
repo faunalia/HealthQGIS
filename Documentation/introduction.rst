@@ -3,6 +3,7 @@ QGIS Health Mapping Tool
 
 .. image:: img/who_logo.jpeg
 	:align: left
+	:scale: 80%
 
 .. image:: img/logo.png
 	:scale: 100%
