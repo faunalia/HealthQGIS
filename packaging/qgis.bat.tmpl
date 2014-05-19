@@ -8,7 +8,10 @@ set GDAL_FILENAME_IS_UTF8=YES
 rem Set VSI cache to be used as buffer, see #6448
 set VSI_CACHE=TRUE
 set VSI_CACHE_SIZE=1000000
-if not exist %USERPROFILE%\.qgis-custom mkdir %USERPROFILE%\.qgis-custom 
-xcopy %OSGEO4W_ROOT%\qgisconfig %USERPROFILE%\.qgis-custom /s /v /e
-start "QGIS" /B "%OSGEO4W_ROOT%"\bin\qgis-bin.exe %* --configpath %USERPROFILE%\.qgis-custom --project %OSGEO4W_ROOT%\project.qgs
 
+if not exist %USERPROFILE%\.qgis-custom	(
+	mkdir %USERPROFILE%\.qgis-custom 
+	xcopy %OSGEO4W_ROOT%\qgisconfig %USERPROFILE%\.qgis-custom /s /v /e
+)
+
+start "QGIS" /B "%OSGEO4W_ROOT%"\bin\qgis-bin.exe %* --configpath %USERPROFILE%\.qgis-custom
