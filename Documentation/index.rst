@@ -10,10 +10,12 @@ Welcome to Health Mapping Tool documentation
    :maxdepth: 2
 
    introduction
+   first_steps
    3_2_basic_around_map
    3_3_querying_the_map
    3_4_buffer
    3_6_thematic_maps
+   join_layers
    print_composer
    print_composer_advanced
 

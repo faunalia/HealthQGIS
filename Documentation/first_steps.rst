@@ -28,10 +28,10 @@ When the project has been loaded you will see some changes in the graphical inte
 
 in particular:
 
-1. Menu bar
-2. Toolbar
-3. Map legend
-4. Map view
+1. **Menu bar**
+2. **Toolbar**
+3. **Map legend**
+4. **Map view**
 
 
 1. Menu bar
