@@ -49,7 +49,7 @@ QGIS is able to measure real distances between given points. Click on the |mActi
 
 .. figure:: img/map_tools_3.png
    :align: center
-   :scale: 70%
+   :scale: 50%
 
 |
 
