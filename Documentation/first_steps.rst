@@ -62,10 +62,14 @@ Layers in the legend window can be organized into **Groups**:
 
 Map view
 ----------------------
-All the maps are displayed in this area. The map displayed in this window depend on the layers you have chosen to load (wheter the checkbox for the layer is activated or not).
+All the maps are displayed in this area. The map displayed in this window depend on the layers you have chosen to load (whether the checkbox for the layer is activated or not).
 The map view can be panned (shifting the focus of the map display to another region) and zoomed in and out thanks to the toolbar buttons.
 
 .. figure:: img/first_steps_3.png
 	:align: center
 	:scale: 80%
+
+Overview
+-----------
+This small window shows a picture of the whole world. What is displayed in the **Map view** has a red border in the overview window: you can pan this red rectangle in order to move the map view area. Otherwise the Overview is automatically updated when you pan the map.
 	
