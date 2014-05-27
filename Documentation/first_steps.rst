@@ -3,15 +3,20 @@ First steps with QGIS
 
 We have created a first simple project so you can explore and make some practice with QGIS.
 
-First of all, load the project:
+First of all, load the project.
 
-* click on **Open...** in the **Project** menu or click on the folder icon in the menu bar. Browse for the file **project.qgs**
+You can do it in two different ways:
+
+1. simply double click on the project file. In this specific case, the file **sri_lanka.qgs**. This way QGIS opens and loads automatically the project with all the layers and customizations
+
+
+2. open QGIS by double clicking on the Desktop shortcut then click on **Open...** in the **Project** menu or click on the folder icon in the menu bar. Browse for the file **sri_lanka.qgs**
 
 .. figure:: img/first_steps_1.png
 	:align: center
 	:scale: 80%
 
-When the project has been loaded you will see some changes in the graphical interface of QGIS. It is divided in **4 main areas**:
+When the project has been loaded you will see some changes in the graphical interface of QGIS. It is divided in **5 main areas**:
 
 
 
@@ -26,6 +31,7 @@ in particular:
 2. **Toolbar**
 3. **Map legend**
 4. **Map view**
+5. **Overview**
 
 
 Menu bar
@@ -50,9 +56,9 @@ The map legend area lists all the layers in the project. The checkbox in each le
 
 A layer can be selected and dragged up or down in the legend to change the z-ordering. Z-ordering means that layers listed nearer the top of the legend are drawn over layers listed lower down in the legend.
 
-Layers in the legend window can be organized into **groups**:
+Layers in the legend window can be organized into **Groups**:
 
-* Right click in the legend window and choose **Add Group**. Type in a name for the group and press Enter. Now click on an existing layer and drag it onto the group (in the example project provided, there are three groups, each one corresponds to a State)
+* Right click in the legend window and choose **Add Group**. Type in a name for the group and press Enter. Now click on an existing layer and drag it onto the group (in the example project provided, there are two groups: the first contains *human* infrastructures while the second contains all the *natural* layers).
 
 Map view
 ----------------------

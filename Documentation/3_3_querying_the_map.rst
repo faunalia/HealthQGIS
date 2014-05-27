@@ -46,19 +46,22 @@ You can access to the label menu by clicking on the |mActionLabeling| toolbar bu
 
 .. figure:: img/querying_the_map_1.png 
 	:align: center
-	:scale: 70%
-
+	
 or through the **Properties menu** of the layer you want to label (just double click on it) and then select the **labels** tab of the dialog window: 
 
  .. figure:: img/querying_the_map_2.png
 	:align: center
-	:scale: 70%
+	:scale: 75%
+	
+|
+|
 
 First step is to activate the checkbox **Label this layer with** checkbox and select an attribute column from the drop down menu to use for labeling and click **OK**: 
 
  .. figure:: img/querying_the_map_3.png
 	:align: center
 	:scale: 70%
+
 
 If you want to perform more fancy labels you have a lot of options in the label dialog windows: 
 
@@ -97,7 +100,7 @@ In the pop-up window you can see each attribute of the clicked feature:
 
 .. figure:: img/querying_the_map_14.png
 	:align: center
-	:scale: 50%
+	:scale: 30%
 
 
 Working with the attribute table 
@@ -114,7 +117,7 @@ This will open a new window which displays the feature attributes of the layer.
 
  .. figure:: img/querying_the_map_7.png
 	:align: center
-	:scale: 50%
+	:scale: 70%
 
 Each **row** in the attribute table displays the attributes of the corresponding **feature** in the layer. If the set of features selected in the main window is changed, the selection is also updated in the attribute table. Likewise, if the set of rows selected in the attribute table is changed, the set of features selected in the main window will be updated. 
 
@@ -130,14 +133,14 @@ Through the attribute table windows you can easily search and filter attributes 
 
  .. figure:: img/querying_the_map_8.png
 	:align: center
-	:scale: 75%
+	:scale: 90%
 
-The following image shows an example of *Western* filtering of the *ADM1_NAME* column.
+The following image shows an example of *Eastern* filtering of the *PROV_NAME* column.
 Be aware at the case sensitive checkbox in the bottom right corner (if activated the filtering is sensitive to upper or lower letters): 
 
  .. figure:: img/querying_the_map_9.png
 	:align: center
-	:scale: 72%
+	:scale: 100%
 
 Finally, the toolbar of the attribute table dialog window has several buttons, here the list an the functionalities:
 
@@ -155,25 +158,15 @@ Finally, the toolbar of the attribute table dialog window has several buttons, h
 * |mActionCalculateField| :sup:`Open field calculator` 
 
 
-Get info gliding layers 
-...................................
-
-With the |mActionMapTips| icon in the upper toolbar of QGIS you can see some layer information just gliding the map with the mouse. To set what you want to display, click on the layer and select the **Display** tab. 
-You can now choose the layer attribute you want to see the information: to change it, just click the dropdown menu and select another attribute: 
-
- .. figure:: img/querying_the_map_10.png
-	:align: center
-	:scale: 70%
-
 
 Summary info for area 
 .................................
 
-You can easily obtain statistical information of a layer through the plugin **Statist**. Open the plugin by clicking on **Vector -> Statist menu**. 
+You can easily obtain statistical information of a layer through the plugin **Statist**. Open the plugin by clicking on the **Statist** button or through the tollbar **Vector -> Statist menu**:
 
  .. figure:: img/querying_the_map_11.png
 	:align: center
-	:scale: 70%
+	:scale: 90%
 
 The dialog window of **Statist** is made up by 3 main parts: 
 

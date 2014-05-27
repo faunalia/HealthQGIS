@@ -16,9 +16,7 @@ Welcome to Health Mapping Tool documentation
    3_4_buffer
    3_6_thematic_maps
    join_layers
-   print_composer
-   print_composer_advanced
-
+   
 Indices and tables
 ==================
 
