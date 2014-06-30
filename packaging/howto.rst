@@ -7,9 +7,14 @@ How to create a Windows package of QGIS
 
 3. you can now easily create a package using the **creatensis.pl** script. Just type in a terminal `perl creatensis.pl`
 
+
 .. warning:: this procedure, especially the first time, will take a while. The script will download all the package from the osgeo server and then it will package them together
 
+
 .. note:: type `perl creatensis --help` to see all the options available
+
+
+.. note:: by default, creatensis creates the lastest stable release of QGIS, so if you want to build a master versione you have to specify it through the option **-version=qgis-dev**
 
 4. you will find the final package (for 64bit if you didn't specify the architecure) in the `ms-windows` folder of the repo. You can simply copy this file and install QGIS on a Windows machine
 
