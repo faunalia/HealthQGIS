@@ -13,7 +13,7 @@ How to create a Windows package of QGIS
 
 4. you will find the final package (for 64bit if you didn't specify the architecure) in the `ms-windows` folder of the repo. You can simply copy this file and install QGIS on a Windows machine
 
-5. `creatensis` is a very powerful toll that allows to create a customized QGIS. This means that you can include additional plugins, configuration files, etc..
+5. `creatensis` is a very powerful tool that allows to create a customized QGIS. This means that you can include additional plugins, configuration files, etc..
 
 	#.  create the `addons` directory in `ms-windows/osgeo4w`
 
