@@ -27,19 +27,19 @@ How to create a Windows package of QGIS
 
 6. now you have to edit the `qgis.bat.tmpl` file in order to include the customization in the package. This is the final version of the `qgis.bat.tmpl` file:
 
-	`call "%~dp0\o4w_env.bat"
-	@echo off
-	call "%OSGEO4W_ROOT%"\apps\grass\grass-6.4.3\etc\env.bat
-	@echo off
-	path %OSGEO4W_ROOT%\apps\qgis\bin;%OSGEO4W_ROOT%\apps\grass\grass-6.4.3\lib;%PATH%
-	set QGIS_PREFIX_PATH=%OSGEO4W_ROOT:\=/%/apps/qgis
-	set GDAL_FILENAME_IS_UTF8=YES
-	rem Set VSI cache to be used as buffer, see #6448
-	set VSI_CACHE=TRUE
-	set VSI_CACHE_SIZE=1000000
-	mkdir "%USERPROFILE%\.qgis-custom" 2>nul 
-	if not errorlevel 1 (xcopy "%OSGEO4W_ROOT%\qgisconfig" "%USERPROFILE%\.qgis-custom" /s /v /e)
-	start "QGIS" /B "%OSGEO4W_ROOT%"\bin\qgis-bin.exe %* --configpath %USERPROFILE%\.qgis-custom`
+  `call "%~dp0\o4w_env.bat"
+  @echo off
+  call "%OSGEO4W_ROOT%"\apps\grass\grass-6.4.3\etc\env.bat
+  @echo off
+  path %OSGEO4W_ROOT%\apps\qgis\bin;%OSGEO4W_ROOT%\apps\grass\grass-6.4.3\lib;%PATH%
+  set QGIS_PREFIX_PATH=%OSGEO4W_ROOT:\=/%/apps/qgis
+  set GDAL_FILENAME_IS_UTF8=YES
+  rem Set VSI cache to be used as buffer, see #6448
+  set VSI_CACHE=TRUE
+  set VSI_CACHE_SIZE=1000000
+  mkdir "%USERPROFILE%\.qgis-custom" 2>nul 
+  if not errorlevel 1 (xcopy "%OSGEO4W_ROOT%\qgisconfig" "%USERPROFILE%\.qgis-custom" /s /v /e)
+  start "QGIS" /B "%OSGEO4W_ROOT%"\bin\qgis-bin.exe %* --configpath %USERPROFILE%\.qgis-custom`
 
 Enjoy!
 
