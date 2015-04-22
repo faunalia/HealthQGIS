@@ -25,7 +25,7 @@ How to create a Windows package of QGIS
    #.  if you want to add some configuration, I strongly suggest to use the `--configpath` option when launching QGIS. This option will create ordered folders where **all** your customizations will be put together (plugins included). So create the `qgisconfig` folder (the name here is not important, but you have to put the name of this directory in the `qgis.bat.tmpl` file, so take care to remember it) and type in a terminal `qgis --configpath ~/QGIS/ms-windows-osgeo4w/addons/qgisconfig. This way all your customizations will be included in the repository. Otherwise you have to copy the content of the `--configpath` folder in `qgisconfig`
    #.  you can also include some data and a project file in tha package. But there are some issues with large files, so maybe this insn't a great idea
 
-6. now you have to edit the `qgis.bat.tmpl` file in order to include the customization in the package. This is the final version of the `qgis.bat.tmpl` file:
+6. now you have to edit the `qgis.bat.tmpl` file in order to include the customization in the package. This is the final version of the `qgis.bat.tmpl` file::
 
   `call "%~dp0\o4w_env.bat"
   @echo off
